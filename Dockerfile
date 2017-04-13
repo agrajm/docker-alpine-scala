@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM docker-asr-release.dr.corp.adobe.com/asr/java-build:2.3-alpine
 
 ENV SCALA_VERSION=2.12.1 \
     SCALA_HOME=/usr/share/scala
